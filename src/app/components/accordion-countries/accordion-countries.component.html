@@ -1,0 +1,13 @@
+<mat-accordion>
+  <mat-expansion-panel>
+    <mat-expansion-panel-header>
+      <mat-panel-title class="panel-title">{{countryTitle}}</mat-panel-title>
+    </mat-expansion-panel-header>
+    <ng-container *ngFor="let country of countriesList">
+        <mat-list-item>
+          {{country}}
+        </mat-list-item>
+        <mat-divider></mat-divider>
+    </ng-container>
+  </mat-expansion-panel>
+</mat-accordion>

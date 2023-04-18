@@ -1,0 +1,16 @@
+h1 {
+  font-weight: bold;
+}
+.view {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  .row {
+   width: 100%;
+   min-height: 350px;
+   margin: 40px;
+   .accordion {
+      margin: 40px;
+   }
+  }
+}
